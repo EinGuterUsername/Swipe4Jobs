@@ -1,0 +1,271 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css");
+body {
+  background-color: #ecf2f5;
+  margin-top: 20px;
+}
+
+.card {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.2) inset;
+}
+
+.card {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid #ecf2f5;
+  border-radius: 0.25rem;
+}
+
+.card button {
+  border: solid 1px rgba(128, 128, 128, 0.5);
+  box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.2) inset;
+  transition: background-color 0.2s;
+}
+
+.card button:hover {
+  background-color: #f0f0f0;
+  transition-delay: 0.2s;
+}
+
+.avatar-lg {
+  height: 4.5rem;
+  width: 4.5rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #ecf2f5;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.avatar-sm {
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.me-2 {
+  margin-right: 0.75rem !important;
+}
+
+.avatar-md {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.bg-transparent {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
+
+.post-user-comment-box {
+  background-color: #f2f8fb;
+  margin: 0 -0.75rem;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.simplebar-wrapper {
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.simplebar-height-auto-observer-wrapper {
+  box-sizing: inherit !important;
+  height: 100%;
+  width: 100%;
+  max-width: 1px;
+  position: relative;
+  float: left;
+  max-height: 1px;
+  overflow: hidden;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  flex-grow: inherit;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+.btn-soft-info {
+  color: #45bbe0;
+  background-color: rgba(69, 187, 224, 0.18);
+  border-color: rgba(69, 187, 224, 0.12);
+}
+
+.social-list-item {
+  height: 2rem;
+  width: 2rem;
+  line-height: calc(2rem - 2px);
+  display: block;
+  border: 2px solid #adb5bd;
+  border-radius: 50%;
+  color: #adb5bd;
+}
+
+.comment-area-box .comment-area-btn {
+  background-color: #f2f8fb;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 0.2rem 0.2rem;
+}
+
+#bio-text {
+  box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.2) inset;
+  border-radius: 10px 10px 0.2rem 0.2rem;
+  padding: 10px;
+}
+
+.profilbild {
+  width: 110px; /* Ändere die Breite und Höhe nach Bedarf */
+  height: 110px;
+  border-radius: 50%; /* Macht das Bild rund */
+  -o-object-fit: cover;
+     object-fit: cover; /* Skaliert das Bild, um den Container zu füllen, während das Seitenverhältnis beibehalten wird */
+  border: solid 1px gray;
+}
+
+.contact-list {
+  height: 300px; /* Hier die gewünschte Höhe für die Liste festlegen */
+  overflow-y: auto; /* Vertikale Scrollbar anzeigen */
+}
+
+#searchInput {
+  /* Stile für die Suchleiste */
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2) inset;
+}
+
+#searchResults {
+  /* Stile für den Bereich der Suchergebnisse */
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: none;
+  margin-bottom: 24px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2) inset;
+}
+
+#contactimg {
+  width: 50px; /* Ändere die Breite und Höhe nach Bedarf */
+  height: 50px;
+  border-radius: 50%; /* Macht das Bild rund */
+  -o-object-fit: cover;
+     object-fit: cover; /* Skaliert das Bild, um den Container zu füllen, während das Seitenverhältnis beibehalten wird */
+  border: solid 1px gray;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.contactlist {
+  list-style: none;
+  padding: 0;
+}
+
+.sendmsgbtn {
+  border: solid 1px rgba(128, 128, 128, 0.5);
+  width: 30px;
+  text-align: center;
+  justify-content: space-between;
+  float: right;
+  margin-right: 0;
+  margin-left: auto;
+  display: block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+.sendmsgbtn:hover {
+  background-color: #f0f0f0;
+  transition-delay: 0.2s;
+}
+
+.contactitem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Optional: Abstand zwischen Kontaktitems */
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.2) inset;
+  border-radius: 0.25rem;
+}
+
+.inbox-widget {
+  overflow-y: auto;
+  max-height: 350px; /* Anpassen nach Bedarf */
+}
+
+#searchskill {
+  /* Stile für die Suchleiste */
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2) inset;
+  margin-top: 10px;
+}
+
+#searchskillResults {
+  /* Stile für den Bereich der Suchergebnisse */
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: none;
+  margin-bottom: 24px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2) inset;
+}
+
+#skillsContainer {
+  display: flex;
+  flex-wrap: wrap; /* Erlaubt den Umbruch der Skills auf mehrere Zeilen */
+}
+
+.skill {
+  margin-right: 10px; /* Rechter Abstand zwischen den Skills */
+  margin-bottom: 10px; /* Unten Abstand zwischen den Skills */
+  padding: 5px 10px; /* Innenabstand für jedes Skill-Element */
+  background-color: #f0f0f0; /* Hintergrundfarbe der Skills */
+  border: 1px solid #ccc; /* Rand um jedes Skill-Element */
+  border-radius: 5px; /* Abrundung der Ecken der Skills */
+}/*# sourceMappingURL=profile.css.map */

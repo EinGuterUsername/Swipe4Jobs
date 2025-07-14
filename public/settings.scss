@@ -1,0 +1,61 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    background-image: linear-gradient(45deg, #9521bf -60%, #c6e8ff 50%,#c6e8ff 50%,#9521bf 160%);
+    margin-top:20px;
+}
+
+.card {
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);
+    margin: 50px;
+    padding: 10px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffffa4;
+    background-clip: border-box;
+    border: 0 solid #ecf2f5;
+    border-radius: .25rem;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.2) inset;
+}
+.card{
+    position: relative;
+    text-align: center;
+    padding-left: 15px;
+  }
+  .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+  }
+  .divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0%;
+    z-index: 1;
+  }
+  .input-group-prepend{
+    height: 100%;
+    margin-right: 10px;
+    width: 40px; 
+  }
+  .setting_button {
+    margin-top: 100px;
+  }
+  .setting_button :hover {
+    background-color: rgba(128, 128, 128, 0.2);
+  }

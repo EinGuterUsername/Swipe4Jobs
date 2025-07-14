@@ -1,0 +1,39 @@
+{
+  "name": "privates-projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/sequelize": "^1.2.1",
+    "admin-bro-sequelizejs": "^0.5.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-session": "^1.18.0",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3",
+    "tslib": "^2.6.2"
+  }
+}
